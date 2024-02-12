@@ -37,10 +37,10 @@ function checkWinner() {
   if (player == computer) {
     return "Draw";
   } else if (computer == "ROCK") {
-    return player == "PAPER" ? "You are a WINNER" : "You LOST";
+    return player == "PAPER" ? "You are a WINNER" : "You LOSE";
   } else if (computer == "PAPER") {
-    return player == "SCISSOR" ? "You are a WINNER" : "You LOST";
+    return player == "SCISSOR" ? "You are a WINNER" : "You LOSE";
   } else if (computer == "SCISSOR") {
-    return player == "ROCK" ? "You are a WINNER" : "You LOST";
+    return player == "ROCK" ? "You are a WINNER" : "You LOSE";
   }
 }
